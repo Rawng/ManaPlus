@@ -76,7 +76,7 @@ bool ServerFeatures::haveBrokenPlayerAttackDistance() const
 
 bool ServerFeatures::haveNativeGuilds() const
 {
-    return tmwServerVersion <= 0;
+    return true;
 }
 
 bool ServerFeatures::haveIncompleteChatMessages() const
